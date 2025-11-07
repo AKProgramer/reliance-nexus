@@ -13,20 +13,20 @@ const Navbar = () => {
                 <div className="max-w-7xl mx-auto flex justify-between items-center text-sm text-gray-600">
                     <div className="flex items-center gap-2">
                         <Phone className="w-4 h-4" />
-                        <span>(561) 825-5840</span>
+                        <span>(737) 310-2009</span>
                     </div>
                     <div className="flex items-center gap-2">
                         <Mail className="w-4 h-4" />
-                        <span>support@reliancenexus.com</span>
+                        <span>info@reliancenexus.com</span>
                     </div>
                 </div>
             </div>
 
-            <header className="bg-white shadow-sm sticky top-0 z-50">
+            <header className="bg-white border top-0 z-50">
                 <div className="max-w-7xl mx-auto px-4 ">
                     <div className="flex justify-between items-center">
                         <div className="flex items-center">
-                            <img src="/logoG.png" alt="RelianceNexus DEALS Logo" className="w-46" />
+                            <img src="/logoG.png" alt="RelianceNexus Logo" className="w-46" />
                         </div>
                         
                         <nav className="hidden md:flex items-center gap-8">

@@ -7,11 +7,11 @@ export default function RelianceNexusServices() {
   const services = [
     {
       title: "LLC Formation",
-      content: `Setting up a Limited Liability Company (LLC) can be challenging without the right guidance. At RelianceNexus DEALS LLC, we simplify the process by handling everything from selecting the best state for registration to ensuring compliance with federal tax laws. Whether you're a domestic entrepreneur or an international business owner, our LLC services are comprehensive and professionally designed. Our services include obtaining your EIN, ITIN, filing federal taxes, and assisting with annual renewals, ensuring your business remains in good standing year-round.`
+      content: `Setting up a Limited Liability Company (LLC) can be challenging without the right guidance. At RelianceNexus LLC, we simplify the process by handling everything from selecting the best state for registration to ensuring compliance with federal tax laws. Whether you're a domestic entrepreneur or an international business owner, our LLC services are comprehensive and professionally designed. Our services include obtaining your EIN, ITIN, filing federal taxes, and assisting with annual renewals, ensuring your business remains in good standing year-round.`
     },
     {
       title: "Warehouse Services",
-      description: "Effective inventory management is essential for your e-commerce business. Our warehouse services provide seamless storage, 3PL solutions, labeling, packaging, and reliable drop shipping options. With a focus on safety, efficiency, and scalability, RelianceNexus DEALS LLC ensures your products are always ready to meet customer demand. Whether you require bulk storage or customized packaging solutions, we have everything you need to run your business smoothly and deliver on time.",
+      description: "Effective inventory management is essential for your e-commerce business. Our warehouse services provide seamless storage, 3PL solutions, labeling, packaging, and reliable drop shipping options. With a focus on safety, efficiency, and scalability, RelianceNexus LLC ensures your products are always ready to meet customer demand. Whether you require bulk storage or customized packaging solutions, we have everything you need to run your business smoothly and deliver on time.",
       subsections: [
         {
           subtitle: "Optimize your e-commerce operations with all of the-art warehouse services. Whether you are a startup or an established brand, we cater to all your logistics needs with precision.",
@@ -38,7 +38,7 @@ export default function RelianceNexusServices() {
     },
     {
       title: "E-commerce Store Management",
-      description: "Managing your online stores across multiple platforms can be challenging, but at RelianceNexus DEALS LLC, we make it easier. From setting up your stores on Amazon, eBay, Walmart, and Etsy to providing ongoing management, we offer tailored solutions to enhance your sales and ensure operational efficiency. Our services include store setup, optimization, inventory management, order fulfillment, and customer support to help you stay ahead in the competitive online marketplace.",
+      description: "Managing your online stores across multiple platforms can be challenging, but at RelianceNexus LLC, we make it easier. From setting up your stores on Amazon, eBay, Walmart, and Etsy to providing ongoing management, we offer tailored solutions to enhance your sales and ensure operational efficiency. Our services include store setup, optimization, inventory management, order fulfillment, and customer support to help you stay ahead in the competitive online marketplace.",
       subsections: [
         {
           subtitle: "Maximize your e-commerce presence with our specialized E-commerce Store Management Services. We help you establish, optimize, and scale your stores on top platforms like Amazon, eBay, Walmart, and Etsy, ensuring maximum visibility and profitability.",
@@ -101,8 +101,8 @@ export default function RelianceNexusServices() {
           <div className="relative">
             <div className="rounded-full w-64 flex items-center justify-center bg-white">
               <img
-                src="/LGC.webp"
-                alt="RelianceNexus DEALS Logo"
+                src="/logoG.png"
+                alt="RelianceNexus Logo"
                 className="object-contain"
               />
             </div>

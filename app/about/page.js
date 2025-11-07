@@ -6,18 +6,18 @@ import Footer from '@/components/Footer';
 
 export default function AboutUsPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
+    <div className="min-h-screen">
       <Navbar />
       {/* Hero Section */}
-      <section className="py-16 relative overflow-hidden">
+      <section className="py-16 relative overflow-hidden bg-white">
         <div className="absolute top-10 left-10 w-24 h-24 bg-teal-400 opacity-50 transform rotate-45"></div>
         <div className="absolute top-20 left-32 w-16 h-16 bg-blue-200 opacity-40 transform rotate-12"></div>
         <div className="absolute top-10 right-10 w-8 h-8 bg-orange-400 opacity-60 rounded-full"></div>
         <div className="absolute bottom-10 right-32 w-32 h-20 bg-purple-500 opacity-40 transform rotate-12"></div>
         <div className="absolute top-20 right-20 w-20 h-20 bg-blue-200 opacity-30 transform rotate-45"></div>
         
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-[#181824]">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">
             About Us
           </h1>
           <div className="w-16 h-1 bg-yellow-400 mx-auto"></div>
@@ -97,10 +97,10 @@ export default function AboutUsPage() {
               </h3>
               
               <p className="text-gray-700 leading-relaxed mb-4">
-                Zohaib Muhammad, the visionary Founder & CEO of <span className="font-semibold">RelianceNexus DEALS LLC</span>, has years of experience in e-commerce and business management. With a deep understanding of <span className="font-semibold">Amazon, eBay, Walmart, and Etsy marketplaces</span>, he has successfully guided numerous clients toward building profitable online businesses. He operates ensures that every client receives top-notch service and personalized solutions tailored to their specific needs.
+                Zohaib Muhammad, the visionary Founder & CEO of <span className="font-semibold">RelianceNexus LLC</span>, has years of experience in e-commerce and business management. With a deep understanding of <span className="font-semibold">Amazon, eBay, Walmart, and Etsy marketplaces</span>, he has successfully guided numerous clients toward building profitable online businesses. He operates ensures that every client receives top-notch service and personalized solutions tailored to their specific needs.
               </p>
               
-              <button className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 px-8 py-3 rounded-full font-semibold transition-colors">
+              <button className="bg-yellow-400 cursor-pointer hover:bg-yellow-500 text-gray-900 px-8 py-3 rounded-full font-semibold transition-colors">
                 Talk To Us
               </button>
             </div>

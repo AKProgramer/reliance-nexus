@@ -47,7 +47,7 @@ export default function ContactUsPage() {
       </section>
 
       {/* Address Section */}
-      <section className="py-12 bg-white">
+      <section className="py-12 bg-white" id='address'>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -63,9 +63,9 @@ export default function ContactUsPage() {
                 <div className="flex items-start justify-center md:justify-start gap-2 mb-2">
                   <MapPin className="w-5 h-5 text-gray-700 mt-1 flex-shrink-0" />
                   <div>
-                    <h3 className="font-bold text-gray-900 mb-1">ST Petersburg</h3>
+                    <h3 className="font-bold text-gray-900 mb-1">Austin</h3>
                     <p className="text-gray-600 text-sm">
-                      7901 4TH ST N 18016, ST Petersburg, Florida
+                      5900 Balcones Drive #13954, Austin Texas, USA 78731
                     </p>
                   </div>
                 </div>
@@ -77,7 +77,7 @@ export default function ContactUsPage() {
                   <Mail className="w-5 h-5 text-gray-700 mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-bold text-gray-900 mb-1">Email Address</h3>
-                    <p className="text-gray-600 text-sm">support@reliancenexus.com</p>
+                    <p className="text-gray-600 text-sm">info@reliancenexus.com</p>
                   </div>
                 </div>
               </div>
@@ -88,7 +88,7 @@ export default function ContactUsPage() {
                   <Phone className="w-5 h-5 text-gray-700 mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-bold text-gray-900 mb-1">Office Number</h3>
-                    <p className="text-gray-600 text-sm">(561) 825-5840</p>
+                    <p className="text-gray-600 text-sm">(737) 310-2009</p>
                   </div>
                 </div>
               </div>
@@ -150,7 +150,7 @@ export default function ContactUsPage() {
       </section>
 
       {/* Contact Form Section */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-white text-gray-900">
         <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -230,20 +230,21 @@ export default function ContactUsPage() {
 
       {/* Map Section */}
       <section className="py-0">
-        <div className="w-full h-96 bg-gray-200">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3526.7234234!2d-82.6479!3d27.8424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjfCsDUwJzMyLjYiTiA4MsKwMzgnNTIuNCJX!5e0!3m2!1sen!2sus!4v1234567890"
-            width="100%"
-            height="100%"
-            style={{ border: 0 }}
-            allowFullScreen=""
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            title="RelianceNexus  Location"
-          />
-        </div>
-      </section>
-      <Footer   />
+      <div className="w-full h-96 bg-gray-200">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3444.690658731249!2d-97.75709998488474!3d30.34887568177426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644cb92a42c7f33%3A0x94e66b3c3b5ef9a4!2s5900%20Balcones%20Dr%20%2313954%2C%20Austin%2C%20TX%2078731%2C%20USA!5e0!3m2!1sen!2sus!4v1731000000000"
+          width="100%"
+          height="100%"
+          style={{ border: 0 }}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          title="RelianceNexus Location"
+        />
+      </div>
+    </section>
+
+    <Footer />
     </div>
   );
 }

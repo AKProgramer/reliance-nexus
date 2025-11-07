@@ -99,9 +99,9 @@ export default function RelianceNexusHomepage() {
             One-Stop Solution For All Your E-commerce Business
           </h2>
           <p className="text-gray-600 mb-8 text-lg leading-relaxed">
-            Welcome to RelianceNexus DEALS LLC, your one-stop solution for all your E-commerce business needs. From LLC formation to comprehensive warehouse services and E-commerce Store Management, we are here to help you build and grow your online business efficiently with professionalism and precision.
+            Welcome to RelianceNexus LLC, your one-stop solution for all your E-commerce business needs. From LLC formation to comprehensive warehouse services and E-commerce Store Management, we are here to help you build and grow your online business efficiently with professionalism and precision.
           </p>
-          <button className="px-8 py-3 bg-yellow-500 text-white rounded-full font-semibold hover:bg-yellow-600 transition-colors shadow-lg">
+          <button href="#address" className="px-8 py-3 cursor-pointer bg-yellow-500 text-white rounded-full font-semibold hover:bg-yellow-600 transition-colors shadow-lg">
             Talk To Us
           </button>
         </div>
@@ -131,7 +131,7 @@ export default function RelianceNexusHomepage() {
                   {service.description}
                 </p>
                 <div className="text-center">
-                  <button className="text-gray-700 font-semibold hover:text-yellow-600 transition-colors">
+                  <button className="text-gray-700 font-semibold cursor-pointer hover:text-yellow-600 transition-colors">
                     READ MORE
                   </button>
                 </div>
@@ -167,7 +167,7 @@ export default function RelianceNexusHomepage() {
               </div>
             ))}
           </div>
-          <button className="px-8 py-3 bg-yellow-500 text-white rounded-full font-semibold hover:bg-yellow-600 transition-colors shadow-lg">
+          <button className="px-8 py-3 bg-yellow-500 cursor-pointer text-white rounded-full font-semibold hover:bg-yellow-600 transition-colors shadow-lg">
             Contact Us
           </button>
         </div>
@@ -216,7 +216,7 @@ export default function RelianceNexusHomepage() {
           </h2>
           <div className="w-24 h-1 bg-yellow-500 mb-6"></div>
           <p className="text-gray-600 mb-8 leading-relaxed">
-            At RelianceNexus DEALS LLC, we follow a streamlined approach to ensure your e-commerce business runs smoothly and efficiently.
+            At RelianceNexus LLC, we follow a streamlined approach to ensure your e-commerce business runs smoothly and efficiently.
           </p>
           <div className="space-y-4">
             {processSteps.map((step, index) => (
