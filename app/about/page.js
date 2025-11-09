@@ -137,7 +137,7 @@ export default function AboutUsPage() {
               <div className="flex justify-center mb-4">
                 <Users className="w-16 h-16" />
               </div>
-              <div className="text-4xl md:text-5xl font-bold mb-2">986</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2">1,673</div>
               <div className="text-blue-200">Satisfied Customers</div>
             </div>
             
@@ -145,7 +145,7 @@ export default function AboutUsPage() {
               <div className="flex justify-center mb-4">
                 <Trophy className="w-16 h-16" />
               </div>
-              <div className="text-4xl md:text-5xl font-bold mb-2">2036</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2">1,372</div>
               <div className="text-blue-200">Successful Projects</div>
             </div>
             
@@ -153,7 +153,7 @@ export default function AboutUsPage() {
               <div className="flex justify-center mb-4">
                 <TrendingUp className="w-16 h-16" />
               </div>
-              <div className="text-4xl md:text-5xl font-bold mb-2">24%</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2">82%</div>
               <div className="text-blue-200">Average Conversion</div>
             </div>
             
