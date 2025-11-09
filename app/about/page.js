@@ -93,11 +93,11 @@ export default function AboutUsPage() {
               <div className="w-16 h-1 bg-yellow-400 mb-6"></div>
               
               <h3 className="text-xl font-bold text-gray-900 mb-4">
-                Zohaib Muhammad - Founder & CEO
+                 Fazal Mubarak Qadri - Founder & CEO
               </h3>
               
               <p className="text-gray-700 leading-relaxed mb-4">
-                Zohaib Muhammad, the visionary Founder & CEO of <span className="font-semibold">RelianceNexus LLC</span>, has years of experience in e-commerce and business management. With a deep understanding of <span className="font-semibold">Amazon, eBay, Walmart, and Etsy marketplaces</span>, he has successfully guided numerous clients toward building profitable online businesses. He operates ensures that every client receives top-notch service and personalized solutions tailored to their specific needs.
+                 Fazal Mubarak Qadri, the visionary Founder & CEO of <span className="font-semibold">RelianceNexus LLC</span>, has years of experience in e-commerce and business management. With a deep understanding of <span className="font-semibold">Amazon, eBay, Walmart, and Etsy marketplaces</span>, he has successfully guided numerous clients toward building profitable online businesses. He operates ensures that every client receives top-notch service and personalized solutions tailored to their specific needs.
               </p>
               
               <button className="bg-yellow-400 cursor-pointer hover:bg-yellow-500 text-gray-900 px-8 py-3 rounded-full font-semibold transition-colors">
