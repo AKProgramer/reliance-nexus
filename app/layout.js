@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Reliance Nexus",
-  description: "Created by AKDigitalLabs",
+  description: "A product of friend traders",
 };
 
 export default function RootLayout({ children }) {
