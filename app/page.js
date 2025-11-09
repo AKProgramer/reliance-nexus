@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { ShoppingCart, Package, Store, ChevronDown, Phone, Mail, Menu, X } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '@/components/Footer';
+import Link from 'next/link';
 
 
 export default function RelianceNexusHomepage() {
@@ -101,9 +102,12 @@ export default function RelianceNexusHomepage() {
           <p className="text-gray-600 mb-8 text-lg leading-relaxed">
             Welcome to RelianceNexus LLC, your one-stop solution for all your E-commerce business needs. From LLC formation to comprehensive warehouse services and E-commerce Store Management, we are here to help you build and grow your online business efficiently with professionalism and precision.
           </p>
-          <button href="#address" className="px-8 py-3 cursor-pointer bg-yellow-500 text-white rounded-full font-semibold hover:bg-yellow-600 transition-colors shadow-lg">
+          <Link
+            href="/contacts#contact-form"
+            className="px-8 py-3 cursor-pointer bg-yellow-500 text-white rounded-full font-semibold hover:bg-yellow-600 transition-colors shadow-lg"
+          >
             Talk To Us
-          </button>
+          </Link>
         </div>
         <div className="relative">
           <img 

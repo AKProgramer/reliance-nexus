@@ -108,7 +108,7 @@ export default function AboutUsPage() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-200 to-blue-400 rounded-lg transform rotate-3"></div>
               <img 
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&h=800&fit=crop" 
+                src="/img.jpg" 
                 alt="Founder" 
                 className="relative rounded-lg shadow-2xl w-full h-auto object-cover"
               />

@@ -13,10 +13,33 @@ export default function ContactUsPage() {
     agreed: false
   });
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    alert('Thank you for your message! We will get back to you soon.');
+    
+    try {
+      const response = await fetch('https://formspree.io/f/manawlln', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      });
+      
+      if (response.ok) {
+        alert('Thank you for your message! We will get back to you soon.');
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          message: '',
+          agreed: false
+        });
+      } else {
+        alert('There was an error submitting the form. Please try again.');
+      }
+    } catch (error) {
+      alert('There was an error submitting the form. Please try again.');
+    }
   };
 
   const handleChange = (e) => {
@@ -47,7 +70,7 @@ export default function ContactUsPage() {
       </section>
 
       {/* Address Section */}
-      <section className="py-12 bg-white" id='address'>
+      <section className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -97,60 +120,9 @@ export default function ContactUsPage() {
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-3 gap-12">
-            {/* Zohaib Muhammad */}
-            <div className="text-center">
-              <div className="relative inline-block mb-4">
-                <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-blue-200 mx-auto">
-                  <img 
-                    src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop&crop=faces" 
-                    alt="Zohaib Muhammad"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-1">Zohaib Muhammad</h3>
-              <p className="text-gray-600 text-sm">Founder & CEO</p>
-            </div>
-
-            {/* Imran Khan */}
-            <div className="text-center">
-              <div className="relative inline-block mb-4">
-                <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-red-200 mx-auto">
-                  <img 
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=faces" 
-                    alt="Imran Khan"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-1">Imran Khan</h3>
-              <p className="text-gray-600 text-sm">Chief Operating Officer</p>
-            </div>
-
-            {/* Fazal Abbas */}
-            <div className="text-center">
-              <div className="relative inline-block mb-4">
-                <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-gray-700 mx-auto">
-                  <img 
-                    src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop&crop=faces" 
-                    alt="Fazal Abbas"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-1">Fazal Abbas</h3>
-              <p className="text-gray-600 text-sm">Marketing & Sales Director</p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Contact Form Section */}
-      <section className="py-16 bg-white text-gray-900">
+      <section className="py-16 bg-white text-gray-900" id='contact-form'>
         <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
